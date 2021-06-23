@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  min-height: 150vh;
+}
+.navbar {
+  position: sticky;
+  top: 0;
+  border-bottom: 1px solid #cecece;
+}
+.nav-brand img {
+  width: 100px;
+}
+.nav-item li {
+  font-size: 28px;
+  list-style: none;
+  margin-left: 15px;
+}
+
+.nav-item {
+  display: flex;
+}
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+a {
+  color: black;
+}
+
+.nav-search input {
+  border: 0.5px solid #dddddd;
+  outline: none;
+  padding: 5px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
